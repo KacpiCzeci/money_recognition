@@ -1,18 +1,31 @@
-from pathlib import Path
+from skimage.io import imread_collection
+from skimage.io import imsave
+import os
+import imageio
 
+class fileManager:
 
-def loadfile():
-    try:
-        file = open("filenames.txt", "r")
-    except IOError:
-        print("Could not open file!\n")
-        return -1
+    def __init__(self):
+        self.imageSet = []
+        self.inputPath = ".\\input\\*.jpg"
+        self.outputPath = ".\\output"
 
-    data = list()
-    for line in file:
-        path = Path(line.rstrip("\n"))
-        if path.is_file():
-            data.append(line.rstrip("\n"))
+    def loadFile(self):
+        self.imageSet = imread_collection(self.inputPath)
 
-    file.close()
-    return data
+    def saveFile(self):
+        #try:
+            #os.rmdir(self.outputPath)
+        #except IOError:
+            #print("try again after creating output dir in your project")
+        orderNumber = 0
+        for image in self.imageSet:
+            orderNumber += 1
+            imName = self.outputPath + f"\\output {orderNumber}.jpg"
+            imsave(imName, image)
+
+    def setImageSet(self,img):
+        self.imageSet = img
+
+    def getImageSet(self):
+        return self.imageSet

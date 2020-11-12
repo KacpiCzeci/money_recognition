@@ -15,6 +15,8 @@ from skimage import measure
 from numpy import array
 import warnings
 from pathlib import Path
+from loadfiles import fileManager
+from inputFilters import Filter
 
 #Ladowanie pliku ze sciezkami do obrazow
 def loadfile():
@@ -37,17 +39,9 @@ def loadfile():
 def loadimage (name):
     return ski.io.imread(name)
 
-#Funkcja gamma
-def setGamma(gamma, image):
-    image = img_as_float(image)
-    return image ** gamma
 
-#Funkcja do oblicznia wartosci progowej
-def thresh(t, image):
-    warnings.simplefilter("ignore")
-    binary = (image > t) * 255
-    binary = np.uint8(binary)
-    return binary
+
+
 
 #Funkcja do oblicznia kontrastu, wartosci MIM i MAX to 2.3 odchylenia standardowego od sredniej
 def contrast(img):
@@ -86,11 +80,7 @@ def main():
         temp = img
         K = np.ones((6,6))
 
-        #Konwersja obrazu z rgb do szarosci
-        img = rgb2gray(img)
-        img = img_as_float(img)
 
-        warnings.simplefilter("ignore")
 
         #ustawienie kontrastu i wartosci progowej
         img = contrast(img_as_float(img))
@@ -133,7 +123,7 @@ def main():
             i += 1
             plot_index[0] = 0
             plot_index[1] = 0
-            saved = True;
+            saved = True
             for n in range(size[0]):
                 for m in range(size[1]):
                     ax1[n, m].clear()
@@ -151,4 +141,17 @@ def main():
 
 
 if __name__  == '__main__':
-    main()
+    ##wstep
+    IOtool = fileManager()
+    IOtool.loadFile()
+    imSet = IOtool.getImageSet()
+    FilterTool = Filter(imSet)
+    ###rozwiniecie
+
+    FilterTool.blackAndWhite()
+
+
+
+    ###zakonczenie
+    IOtool.setImageSet(FilterTool.getImageSet())
+    IOtool.saveFile()
