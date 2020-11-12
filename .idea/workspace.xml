@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efa8c221-e31d-43fd-aebb-5a2df2fe5945" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/IMG_5319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputFilters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/money_recognition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/money_recognition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loadfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/loadfiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="5cfe7ea6-ec21-4002-96f7-819941c18739" />
+  <component name="ProjectId" id="1k9vLB6QB0V9Q1hfj37N72xwpX2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/input" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\money_recognition\money_recognition\input" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="money_recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Kacper\PycharmProjects\obrazy\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="money_recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="ANT_HOME" value="C:\ProgramData\chocolatey\lib\ant\tools\apache-ant-1.10.9" />
+        <env name="APPDATA" value="C:\Users\1\AppData\Roaming" />
+        <env name="COMPUTERNAME" value="DESKTOP-A348N89" />
+        <env name="ChocolateyInstall" value="C:\ProgramData\chocolatey" />
+        <env name="ChocolateyLastPathUpdate" value="132475385250963666" />
+        <env name="ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+        <env name="CommonProgramFiles" value="C:\Program Files\Common Files" />
+        <env name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+        <env name="CommonProgramW6432" value="C:\Program Files\Common Files" />
+        <env name="DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+        <env name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+        <env name="FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+        <env name="HOMEDRIVE" value="$PROJECT_DIR$/../.." />
+        <env name="HOMEPATH" value="\Users\1" />
+        <env name="IDEA_INITIAL_DIRECTORY" value="C:\pyCharm\PyCharm 2020.2.3\jbr\bin" />
+        <env name="IntelliJ IDEA" value="C:\java\IntelliJ IDEA 2020.2.3\bin;" />
+        <env name="IntelliJ IDEA Educational Edition" value="C:\java\IntelliJ IDEA Educational Edition 2020.2.2\bin;" />
+        <env name="LOCALAPPDATA" value="C:\Users\1\AppData\Local" />
+        <env name="LOGONSERVER" value="\\DESKTOP-A348N89" />
+        <env name="M2_HOME" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3" />
+        <env name="NUMBER_OF_PROCESSORS" value="4" />
+        <env name="OS" value="Windows_NT" />
+        <env name="OneDrive" value="C:\Users\1\OneDrive" />
+        <env name="OneDriveConsumer" value="C:\Users\1\OneDrive" />
+        <env name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW" />
+        <env name="PROCESSOR_ARCHITECTURE" value="AMD64" />
+        <env name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 158 Stepping 9, GenuineIntel" />
+        <env name="PROCESSOR_LEVEL" value="6" />
+        <env name="PROCESSOR_REVISION" value="9e09" />
+        <env name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+        <env name="PUBLIC" value="C:\Users\Public" />
+        <env name="Path" value="C:\Python\Scripts\;C:\Python\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\git\Git\cmd;C:\Users\1\AppData\Local\Microsoft\WindowsApps;;C:\java\IntelliJ IDEA Educational Edition 2020.2.2\bin;;C:\java\IntelliJ IDEA 2020.2.3\bin;;C:\vsCode\Microsoft VS Code\bin;C:\pyCharm\PyCharm 2020.2.3\bin;" />
+        <env name="ProgramData" value="C:\ProgramData" />
+        <env name="ProgramFiles" value="C:\Program Files" />
+        <env name="ProgramFiles(x86)" value="C:\Program Files (x86)" />
+        <env name="ProgramW6432" value="C:\Program Files" />
+        <env name="PyCharm" value="C:\pyCharm\PyCharm 2020.2.3\bin;" />
+        <env name="SESSIONNAME" value="Console" />
+        <env name="SystemDrive" value="$PROJECT_DIR$/../.." />
+        <env name="SystemRoot" value="C:\WINDOWS" />
+        <env name="TEMP" value="C:\Users\1\AppData\Local\Temp" />
+        <env name="TMP" value="C:\Users\1\AppData\Local\Temp" />
+        <env name="USERDOMAIN" value="DESKTOP-A348N89" />
+        <env name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-A348N89" />
+        <env name="USERNAME" value="1" />
+        <env name="USERPROFILE" value="C:\Users\1" />
+        <env name="windir" value="C:\WINDOWS" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efa8c221-e31d-43fd-aebb-5a2df2fe5945" name="Default Changelist" comment="" />
+      <created>1605097555616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605097555616</updated>
+      <workItem from="1605125567866" duration="13579000" />
+      <workItem from="1605146910045" duration="1720000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605129201526">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605129201526" />
+    <state x="537" y="242" key="#com.intellij.tools.ToolEditorDialog" timestamp="1605125511446">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="537" y="242" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1605125511446" />
+    <state x="637" y="167" key="EnvironmentVariablesDialog" timestamp="1605129197790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="637" y="167" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605129197790" />
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom" timestamp="1605140476892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605140476892" />
+    <state width="1493" height="296" key="GridCell.Tab.0.center" timestamp="1605140476892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="296" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605140476892" />
+    <state width="1493" height="296" key="GridCell.Tab.0.left" timestamp="1605140476892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="296" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605140476892" />
+    <state width="1493" height="296" key="GridCell.Tab.0.right" timestamp="1605140476892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="296" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605140476892" />
+    <state x="147" y="65" key="MergeDialog" timestamp="1605118873301">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1605118873301" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1605125554175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605125554175" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605118820095">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605118820095" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1605147543211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
