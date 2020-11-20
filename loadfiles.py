@@ -13,7 +13,7 @@ class fileManager:
     def loadFile(self):
         self.imageSet = imread_collection(self.inputPath)
 
-    def saveFile(self):
+    def saveFile(self, name):
         #try:
             #os.rmdir(self.outputPath)
         #except IOError:
@@ -21,7 +21,7 @@ class fileManager:
         orderNumber = 0
         for image in self.imageSet:
             orderNumber += 1
-            imName = self.outputPath + f"\\output {orderNumber}.jpg"
+            imName = self.outputPath + f"\\{name}{orderNumber}.jpg"
             imsave(imName, image)
 
     def setImageSet(self,img):

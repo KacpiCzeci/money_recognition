@@ -18,56 +18,14 @@ from pathlib import Path
 from loadfiles import fileManager
 from inputFilters import Filter
 
-#Ladowanie pliku ze sciezkami do obrazow
-def loadfile():
-    try:
-        file = open("filenames.txt", "r")
-    except IOError:
-        print("Could not open file!\n")
-        return -1
-
-    data = list()
-    for line in file:
-        path = Path(line.rstrip("\n"))
-        if path.is_file():
-            data.append(line.rstrip("\n"))
-
-    file.close()
-    return data
-
-#Ladowanie obrazu
-def loadimage (name):
-    return ski.io.imread(name)
-
-
-
-
-
-#Funkcja do oblicznia kontrastu, wartosci MIM i MAX to 2.3 odchylenia standardowego od sredniej
-def contrast(img):
-    mean  = np.mean(img)
-    std = np.std(img)
-    MIN = mean - 2.3*std
-    MAX = mean + 2.3*std
-    if MIN < np.percentile(img, 0):
-        MIN = np.percentile(img, 5)
-    if MAX > np.percentile(img, 100):
-        MAX = np.percentile(img, 95)
-    norm = (img - MIN) / (MAX - MIN)
-    norm[norm[:,:] > 1] = 1
-    norm[norm[:,:] < 0] = 0
-    return norm
 
 
 def main():
-    filenames = loadfile()
-    if(filenames == -1):
-        return 1
+
 
     planes = list()
 
-    for file in filenames:
-        planes.append(loadimage(file))
+
 
     #Utworzenie dwoch oddzielnych prestrzeni (na zad na 3 i na 5)
     size = (2, 3)
@@ -83,12 +41,10 @@ def main():
 
 
         #ustawienie kontrastu i wartosci progowej
-        img = contrast(img_as_float(img))
-        img = thresh(mean(img)-0.9*mean(img), img)
+        #img = contrast(img_as_float(img))
+        #img = thresh(mean(img)-0.9*mean(img), img)
 
-        #Negatyw i dopelnienie obiektow za pomoca dylacji
-        img = util.invert(img)
-        img = mp.dilation(img, selem=K)
+
         #Okreslenie regionow, rozniacych sie barwami
         label_img = label(img)
         regions = regionprops(label_img)
@@ -100,14 +56,14 @@ def main():
 
         #Filtr wykrywajacy kolory
         img1 = filters.sobel(img)
-        img1 = setGamma(5.0, img1)
+        #img1 = setGamma(5.0, img1)
         ax1[plot_index[0], plot_index[1]].imshow(img1, cmap=plt.cm.gray, interpolation='nearest')
 
         #Wykrycie i dodanie konturow (kolor)
-        img2 = setGamma(5.0, img)
-        contours = measure.find_contours(img2, 0.8)
-        for contour in contours:
-            ax2[plot_index[0], plot_index[1]].plot(contour[:, 1], contour[:, 0], linewidth=2)
+        #img2 = setGamma(5.0, img)
+        #contours = measure.find_contours(img2, 0.8)
+        #for contour in contours:
+        #    ax2[plot_index[0], plot_index[1]].plot(contour[:, 1], contour[:, 0], linewidth=2)
 
         # Okreslenie i dodanie centroidow
         for props in regions:
@@ -149,9 +105,17 @@ if __name__  == '__main__':
     ###rozwiniecie
 
     FilterTool.blackAndWhite()
+    FilterTool.setGamma(1.5)
+    FilterTool.sobel()
+    FilterTool.thresh(0.05)
+    FilterTool.object_finder()
+    #FilterTool.object_finder()
+    #FilterTool.thresh(0.05)
 
 
 
     ###zakonczenie
     IOtool.setImageSet(FilterTool.getImageSet())
-    IOtool.saveFile()
+    IOtool.saveFile("output")
+    IOtool.setImageSet(FilterTool.getObjectsAtImg())
+    IOtool.saveFile("object")
