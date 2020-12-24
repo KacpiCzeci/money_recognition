@@ -3,57 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="efa8c221-e31d-43fd-aebb-5a2df2fe5945" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100zl1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100zl11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100zl2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/100zl22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/200zl1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/200zl2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20zl1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20zl2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/500zl1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/500zl2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50zl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50zl1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/50zl2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG_5321.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG_53211.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG_532111.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG_5327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG_5332.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG_5340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5318.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5319.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5321.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5322.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5323.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5324.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5325.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5326.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5328.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5330.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5331.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5332.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5334.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5335.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5336.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5337.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5338.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5339.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5342.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpg/IMG_5344.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpg/Templates/1gr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jpg/Templates/1gr.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ok.py" beforeDir="false" afterPath="$PROJECT_DIR$/ok.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samolot08.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xd.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="272">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -99,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ok.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+            <state relative-caret-position="-1479">
+              <caret line="75" column="4" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="34" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -133,8 +85,8 @@
         <option value="$PROJECT_DIR$/template_matching_demo.py" />
         <option value="$PROJECT_DIR$/SIFT.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/ok.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -149,7 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,6 +121,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ok">
+  <component name="RunManager" selected="Python.test">
     <configuration name="SIFT" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="money_recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,14 +298,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26636904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15220949" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26350245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5057283" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,13 +324,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ok.py</url>
-          <line>155</line>
-          <option name="timeStamp" value="6" />
+          <line>180</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ok.py</url>
-          <line>105</line>
-          <option name="timeStamp" value="10" />
+          <line>177</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -427,16 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -447,10 +388,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ok.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+        <state relative-caret-position="-1479">
+          <caret line="75" column="4" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="34" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
