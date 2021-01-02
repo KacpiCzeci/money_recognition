@@ -1,44 +1,41 @@
-import numpy as np
-import warnings
 from pylab import *
-import skimage as ski
-from skimage import img_as_float
-from skimage.color import rgb2gray
+import cv2
 class Filter():
 
-    def __init__(self,image):
-        self.imageSet = image
+    def __init__(self, img):
+        self.image = img
+        self.original = img
 
+    def crop(self, rect):
+        shape = (self.image.shape[1], self.image.shape[0])
+        w, h = rect[1]
+        center = (rect[0][0], rect[0][1])
+        M = cv2.getRotationMatrix2D(center, rect[2], 1.0)
+        rotated_image = cv2.warpAffine(self.image, M, shape)
+        x = int(center[0] - w / 2)
+        y = int(center[1] - h / 2)
+        return rotated_image[y:y + int(h), x:x + int(w)]
 
-#Funkcja do oblicznia wartosci progowej
-    def thresh(self,t):
-        ite = 0
-        new_set = []
-        for image in self.imageSet:
-            warnings.simplefilter("ignore")
-            binary = (image > t) * 255
-            binary = np.uint8(binary)
-            new_set.append(binary)
-            ite += 1
-        self.imageSet = new_set
+    def resize(self, scale):
+        self.image = cv2.resize(self.image, (int(self.image.shape[1]/scale), int(self.image.shape[0]/scale)))
 
-    #nietestowane
-    def setGamma(self,gamma):
-        new_set = []
-        for image in self.imageSet:
-            image = img_as_float(image)
-            new_set.append(image ** gamma)
-        self.imageSet = new_set
+    def mor
 
-    def blackAndWhite(self):
-        new_set = []
-        for img in self.imageSet:
-            img = rgb2gray(img)
-            img = img_as_float(img)
-            new_set.append(img)
-        self.imageSet = new_set
+    def threshold(self, option):
+        blur = cv2.GaussianBlur(self.image, (15, 15), 0)
+        if option == "adaptive":
+            self.image = cv2.adaptiveThreshold(blur, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 31, 3)
+        if option == "global":
+            _, img = cv2.threshold(self.image, 127, 255, cv2.THRESH_BINARY_INV)
+            self.image = img
 
+    def filtering(self, esp):
+        if esp == "median":
+            self.image = cv2.medianBlur(self.image, 5)
+        elif esp == "gaussian":
+            self.image = cv2.GaussianBlur(self.image, (5, 5), 0)
+        elif esp == "bilateral":
+            self.image = cv2.bilateralFilter(self.image, 5, 50, 100)
 
-        warnings.simplefilter("ignore")
-    def getImageSet(self):
-        return self.imageSet
+    def Gamma(self, gamma):
+        self.image = (np.power(self.image / 255, gamma).clip(0, 1) * 255).astype(np.uint8)

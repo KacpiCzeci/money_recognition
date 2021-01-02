@@ -2,6 +2,18 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 
+scale = 6.0
+
+def crop(image, rect):
+   shape = (image.shape[1], image.shape[0])
+   w, h = rect[1]
+   center = (rect[0][0], rect[0][1])
+   M = cv2.getRotationMatrix2D(center, rect[2], 1.0)
+   rotated_image = cv2.warpAffine(image, M, shape)
+   x = int(center[0] - w/2)
+   y = int(center[1] - h/2)
+   return rotated_image[y:y+int(h), x:x+int(w)]
+
 
 def threshold(img_gray, option):
     blur = cv2.GaussianBlur(img_gray, (15, 15), 0)
@@ -12,7 +24,6 @@ def threshold(img_gray, option):
         return img
     else:
         return img_gray
-
 
 def filtering(img_gray, esp):
     if esp == "median":
@@ -27,15 +38,3 @@ def filtering(img_gray, esp):
 
 def Gamma(img_gray, gamma):
     return (np.power(img_gray / 255, gamma).clip(0, 1) * 255).astype(np.uint8)
-
-scale = 1.0
-img = cv2.imread("./jpg/Templates/1zl.jpg")
-img = cv2.resize(img, (int(img.shape[1]/scale), int(img.shape[0]/scale)))
-width, height = img.shape[:2]
-img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-img = Gamma(img, 0.20)
-img = threshold(img, "adaptive")
-img = cv2.Canny(img, 100, 200)
-
-plt.imshow(img)
-plt.show()

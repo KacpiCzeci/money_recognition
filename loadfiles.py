@@ -1,7 +1,6 @@
 from skimage.io import imread_collection
 from skimage.io import imsave
-import os
-import imageio
+import cv2
 
 
 class fileManager:
