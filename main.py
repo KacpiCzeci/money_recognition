@@ -21,6 +21,7 @@ def main():
         "5zl": 24.0
     }
     '''
+    #Wykrywanie monet
     img = cv2.imread("./jpg/Easy/IMG_5418.jpg")
     original = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img = cv2.resize(img, (int(img.shape[1]/f.scale), int(img.shape[0]/f.scale)))
@@ -58,6 +59,10 @@ def main():
                     match_size.append(0.0)
                     crop_ellipses.append(cv2.cvtColor(coin_check, cv2.COLOR_HSV2RGB))
                     match_ratio.append(0)
+                    
+                    
+                    
+    #Rozpoznawanie wartości - nie działa zbyt dobrze
 
     #sorted(fit_ellipses, key=lambda ell: ell[1][0] * ell[1][1] * np.pi)
 
