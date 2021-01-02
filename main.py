@@ -63,6 +63,46 @@ def main():
 
     #starting_size = width*height/100
     #ending_size = width*height/10
+    
+    '''
+    while starting_size < ending_size:
+    for key, value in coins.items():
+        for i in range(len(fit_ellipses)):
+            ellipse = fit_ellipses[i]
+            if key == "1gr":#
+                match_to_coin[i] = "1gr"#
+                temp = max(ellipse[1][0], ellipse[1][1])#
+                match_size[i] = abs(int(temp/value)-temp/value)
+            #d1 = abs(starting_size * value - ellipse[1][0])#
+            #d2 = abs(starting_size * value - ellipse[1][1])#
+            if d1 < value or d2 < value:
+                if (match_to_coin[i]) == False:
+        d1 = abs(starting_size * value - ellipse[1][0])#
+        d2 = abs(starting_size * value - ellipse[1][1])#
+        if d1 < value or d2 < value:
+            if (match_to_coin[i]) == False:
+                match_to_coin[i] = key
+                match_size[i] = starting_size
+                #starting_size = ending_size
+            else:
+                previous_value = coins.get(match_to_coin[i])
+                d11 = abs(match_size[i] * previous_value - ellipse[1][0])
+                d22 = abs(match_size[i] * previous_value - ellipse[1][1])
+                if d11 > d1 or d22 > d2:
+                #if previous_value < value:
+                    match_to_coin[i] = key
+                    match_size[i] = starting_size
+                    #starting_size = ending_size
+                else:
+                    previous_value = coins.get(match_to_coin[i])
+                    d11 = abs(match_size[i] * previous_value - ellipse[1][0])
+                    d22 = abs(match_size[i] * previous_value - ellipse[1][1])
+                    if d11 > d1 or d22 > d2:
+                    #if previous_value < value:
+                        match_to_coin[i] = key
+                        match_size[i] = starting_size
+    starting_size += 0.1
+    '''
 
     templates = ["1gr", "10gr", "1zl", "2zl", "5zl"]
     for name in templates:
