@@ -10,15 +10,15 @@ def crop(image, rect):
    center = (rect[0][0], rect[0][1])
    M = cv2.getRotationMatrix2D(center, rect[2], 1.0)
    rotated_image = cv2.warpAffine(image, M, shape)
-   x = int(center[0] - w/2)
-   y = int(center[1] - h/2)
+   x = max(int(center[0] - w/2), 0)
+   y = max(int(center[1] - h/2), 0)
    return rotated_image[y:y+int(h), x:x+int(w)]
 
 
 def threshold(img_gray, option):
     blur = cv2.GaussianBlur(img_gray, (15, 15), 0)
     if option == "adaptive":
-        return cv2.adaptiveThreshold(blur, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 31, 3)
+        return cv2.adaptiveThreshold(blur, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 33, 3)
     if option == "global":
         _, img = cv2.threshold(img_gray, 127, 255, cv2.THRESH_BINARY_INV)
         return img
